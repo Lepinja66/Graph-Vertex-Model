@@ -2,16 +2,13 @@
 Graph Vertex Model for simulating tissue growth. 
 
 Includes ET and TE transitions was well as cell divisions.
-
 This script runs vertex-model tissue simulations using the GVM framework. 
-
 It configures model parameters via command-line arguments, executes one or more stochastic simulations, and automatically recovers from failed runs by restarting from the last valid saved state. 
-
 The script is intended to be used as a batch-simulation driver, for example in parameter sweeps or high-throughput numerical experiments.
 
-Example Usage
+- Example Usage
 
-python /path/to/src/test_gvm.py --nsim 1 --tmax 1000.0 --nmax 2000 --sigma 0.2 --drate 0.01 --tens 3.0 --lays 1 --g0b 1.0
+	python /path/to/src/test_gvm.py --nsim 1 --tmax 1000.0 --nmax 2000 --sigma 0.2 --drate 0.01 --tens 3.0 --lays 1 --g0b 1.0
 
 - Overview
 
