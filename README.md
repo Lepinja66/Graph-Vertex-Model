@@ -1,8 +1,12 @@
 # Graph-Vertex-Model
 Graph Vertex Model for simulating tissue growth. 
+
 Includes ET and TE transitions was well as cell divisions.
+
 This script runs vertex-model tissue simulations using the GVM framework. 
+
 It configures model parameters via command-line arguments, executes one or more stochastic simulations, and automatically recovers from failed runs by restarting from the last valid saved state. 
+
 The script is intended to be used as a batch-simulation driver, for example in parameter sweeps or high-throughput numerical experiments.
 
 Example Usage
@@ -34,23 +38,23 @@ Command-Line Arguments
 
 All model parameters are provided via command-line flags:
 
-Argument  Type   Description
+Argument      |      Type      |      Description
 
---nsim    int    Number of independent simulations
+--nsim      |      int      |      Number of independent simulations
 
---tmax    float  Maximum simulation time
+--tmax      |      float      |      Maximum simulation time
 
---nmax    int    Maximum allowed number of cells
+--nmax      |      int      |      Maximum allowed number of cells
 
---sigma   float  Edge-force fluctuation amplitude (sigma)
+--sigma      |      float      |      Edge-force fluctuation amplitude (sigma)
 
---drate   float  Cell division rate (k_div)
+--drate      |      float      |      Cell division rate (k_div)
 
---tens    float  Line tension between live and necrotic layers (Gamma_LNI)
+--tens      |      float      |      Line tension between live and necrotic layers (Gamma_LNI)
 
---lays    int    Number of live cell layers (lambda)
+--lays      |      int      |      Number of live cell layers (lambda)
 
---g0b     float  Boundary surface tension (Gamma)
+--g0b      |      float      |      Boundary surface tension (Gamma)
 
 Fixed Model Parameters
 
