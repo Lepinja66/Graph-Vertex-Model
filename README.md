@@ -40,21 +40,14 @@ All model parameters are provided via command-line flags:
 
 Argument      |      Type      |      Description
 
---nsim      |      int      |      Number of independent simulations
-
---tmax      |      float      |      Maximum simulation time
-
---nmax      |      int      |      Maximum allowed number of cells
-
---sigma      |      float      |      Edge-force fluctuation amplitude (sigma)
-
---drate      |      float      |      Cell division rate (k_div)
-
---tens      |      float      |      Line tension between live and necrotic layers (Gamma_LNI)
-
---lays      |      int      |      Number of live cell layers (lambda)
-
---g0b      |      float      |      Boundary surface tension (Gamma)
+- --nsim      |      int      |      Number of independent simulations
+- --tmax      |      float      |      Maximum simulation time
+- --nmax      |      int      |      Maximum allowed number of cells
+- --sigma      |      float      |      Edge-force fluctuation amplitude (sigma)
+- --drate      |      float      |      Cell division rate (k_div)
+- --tens      |      float      |      Line tension between live and necrotic layers (Gamma_LNI)
+- --lays      |      int      |      Number of live cell layers (lambda)
+- --g0b      |      float      |      Boundary surface tension (Gamma)
 
 Fixed Model Parameters
 
